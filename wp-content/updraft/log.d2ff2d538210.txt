@@ -1,0 +1,89 @@
+0000.004 () Opened log file at time: Thu, 28 Jan 2021 21:11:48 +0000 on http://127.0.0.1:8080/scoding
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.14 (apache2handler, Darwin Amrs-MBP.Dlink 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.22 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 5M | 2M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 1480193 MB
+0000.003 () Opened log file at time: Thu, 28 Jan 2021 21:11:48 +0000 on http://127.0.0.1:8080/scoding
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.14 (apache2handler, Darwin Amrs-MBP.Dlink 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.22 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.4M | 2M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 1480193 MB
+0000.004 () Ensuring WP_Filesystem is setup for a restore
+0000.005 () WP_Filesystem is setup and ready for a restore
+0000.010 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.017 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.019 () Entity: db
+0000.019 () restore_backup(backup_file=backup_2021-01-28-2053_Scoding_7ee03ae4e996-db.gz, type=db, info=a:0:{}, last_one=)
+0000.020 () Unpacking backup... (backup_2021-01-28-2053_Scoding_7ee03ae4e996-db.gz, 0.3 Mb)
+0000.022 () Database successfully unpacked
+0000.022 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.023 () Using direct MySQL access; value of use_mysqli is: 1
+0000.024 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.042 () Max packet size: 32 MB
+0000.042 () Entering maintenance mode
+0000.042 () Enabling Maintenance mode&#8230;
+0000.047 () Backup of: http://127.0.0.1:8080/scoding
+0000.049 () Content URL: http://127.0.0.1:8080/scoding/wp-content
+0000.049 () Uploads URL: http://127.0.0.1:8080/scoding/wp-content/uploads
+0000.049 () Old table prefix: wp_
+0000.050 () Site information: multisite=0
+0000.050 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.052 () New table prefix: wp_
+0000.060 () Processing table (InnoDB): wp_options
+0000.224 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.234 () Processing table (InnoDB): wp_users
+0000.259 () Processing table (InnoDB): wp_usermeta
+0000.287 () Processing table (InnoDB): wp_commentmeta
+0000.308 () Processing table (InnoDB): wp_comments
+0000.334 () Processing table (InnoDB): wp_links
+0000.353 () Processing table (InnoDB): wp_postmeta
+0000.401 () Processing table (InnoDB): wp_posts
+0000.457 () Processing table (InnoDB): wp_term_relationships
+0000.476 () Processing table (InnoDB): wp_term_taxonomy
+0000.498 () Processing table (InnoDB): wp_termmeta
+0000.515 () Processing table (InnoDB): wp_terms
+0000.561 () Unlocking database and leaving maintenance mode
+0000.561 () Disabling Maintenance mode&#8230;
+0000.562 () Finished: lines processed: 43 in 0.53 seconds
+0000.563 () Cleaning up rubbish...
+0000.571 () Entity: plugins
+0000.571 () restore_backup(backup_file=backup_2021-01-28-2053_Scoding_7ee03ae4e996-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:75:"/Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.572 () Unpacking backup... (backup_2021-01-28-2053_Scoding_7ee03ae4e996-plugins.zip, 18.8 MB)
+0000.573 () Unzipping backup_2021-01-28-2053_Scoding_7ee03ae4e996-plugins.zip to /Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/upgrade/7351e239/ using UpdraftPlus_ZipArchive, starting index 0
+0001.850 () Unzip progress: 1002 out of 2632 files (9.9 MB, plugins/ocean-extra/includes/client-migration/class-fs-wc-client-migration.php)
+0002.473 () Unzip progress: 2003 out of 2632 files (27.2 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/ObjectStore/Upload/TransferState.php)
+0003.079 () Unzip progress: 2632 out of 2632 files (47.9 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/LinearBackoffStrategy.php)
+0003.087 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.087 () Moving old data: can potentially use wp_filesystem method / -old
+0003.088 () Moving old data out of the way...
+0004.911 () Top-level entities being moved: simple-header-footer-html, index.php, akismet, ocean-extra, disable-search, updraftplus, hello.php, wp-reset
+0004.915 () Moving unpacked backup into place...
+0006.327 () Top-level entities being moved: simple-header-footer-html, index.php, akismet, ocean-extra, disable-search, updraftplus, hello.php, wp-reset
+0006.330 () Cleaning up rubbish...
+0006.334 () Entity: themes
+0006.334 () restore_backup(backup_file=backup_2021-01-28-2053_Scoding_7ee03ae4e996-themes.zip, type=themes, info=a:2:{s:4:"path";s:74:"/Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0006.334 () Unpacking backup... (backup_2021-01-28-2053_Scoding_7ee03ae4e996-themes.zip, 7.9 MB)
+0006.335 () Unzipping backup_2021-01-28-2053_Scoding_7ee03ae4e996-themes.zip to /Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/upgrade/1ed473f0/ using UpdraftPlus_ZipArchive, starting index 0
+0007.027 () Unzip progress: 1002 out of 1122 files (17.8 MB, themes/twentytwentyone/template-parts/post/author-bio.php)
+0007.071 () Unzip progress: 1122 out of 1122 files (19.5 MB, themes/twentynineteen/functions.php)
+0007.074 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.075 () Moving old data: can potentially use wp_filesystem method / -old
+0007.075 () Moving old data out of the way...
+0007.672 () Top-level entities being moved: twentynineteen, .DS_Store, index.php, twentytwentyone, oceanwp, oceanwp-child-theme, twentytwenty
+0007.674 () Moving unpacked backup into place...
+0008.313 () Top-level entities being moved: twentynineteen, .DS_Store, index.php, twentytwentyone, oceanwp, oceanwp-child-theme, twentytwenty
+0008.315 () Cleaning up rubbish...
+0008.319 () Entity: uploads
+0008.319 () restore_backup(backup_file=backup_2021-01-28-2053_Scoding_7ee03ae4e996-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:75:"/Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0008.319 () Unpacking backup... (backup_2021-01-28-2053_Scoding_7ee03ae4e996-uploads.zip, 20.8 MB)
+0008.320 () Unzipping backup_2021-01-28-2053_Scoding_7ee03ae4e996-uploads.zip to /Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/upgrade/b471937a/ using UpdraftPlus_ZipArchive, starting index 0
+0008.472 () Unzip progress: 34 out of 34 files (20.8 MB, uploads/2021/01/cropped-favicon.png)
+0008.474 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.474 () Moving old data: can potentially use wp_filesystem method / -old
+0008.475 () Moving old data out of the way...
+0008.494 () Moving unpacked backup into place...
+0008.514 () Cleaning up rubbish...
+0008.518 () Entity: others
+0008.518 () restore_backup(backup_file=backup_2021-01-28-2053_Scoding_7ee03ae4e996-others.zip, type=others, info=a:2:{s:4:"path";s:67:"/Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0008.518 () Unpacking backup... (backup_2021-01-28-2053_Scoding_7ee03ae4e996-others.zip, 0 MB)
+0008.519 () Unzipping backup_2021-01-28-2053_Scoding_7ee03ae4e996-others.zip to /Applications/mampstack-7.4.14-00/apache2/htdocs/scoding/wp-content/upgrade/b6f7ca6f/ using UpdraftPlus_ZipArchive, starting index 0
+0008.524 () Unzip progress: 2 out of 2 files (6 KB, .DS_Store)
+0008.529 () Cleaning up rubbish...
+0008.549 () Restore successful!
+0008.549 () Restore successful
