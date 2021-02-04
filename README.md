@@ -53,7 +53,7 @@ Aim is to show my skills in converting Adobe XD design files to real world funct
 - Change Directory to Cloned Folder
 - Edit Wordpress Database Credentials Line 23 to 32 [wp-config.php File](https://github.com/amrfarouqa/Scoding-Wordpress-Task/blob/main/wp-config.php). 
 - Make Sure Apache Web Server and MySQL Database are Running
-- Go to [localhost:8080](http://localhost:8080) or [http://127.0.0.1](http://127.0.0.1:8080:8080) to see Scoding-Wordpress Application
+- Go to [localhost:8080](http://localhost:8080) or [http://127.0.0.1:8080](http://127.0.0.1:8080) to see Scoding-Wordpress Application
 
 ---
 
